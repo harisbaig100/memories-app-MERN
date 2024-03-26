@@ -1,4 +1,7 @@
-import { combineReducers } from "redux";
-import posts from "./posts";
+import { combineReducers } from 'redux';
 
-export default combineReducers({ posts });
+import posts from './posts';
+
+const reducers = combineReducers({ posts });
+
+export default reducers;
